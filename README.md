@@ -380,10 +380,10 @@ Success rate is 100 percent (10/10)
 
 | # | Captura | Descripción |
 |---|---|---|
-| 1 | [Topología general](evidencias/01_topologia.png) | Topología en PNetLab con nombre y matrícula visibles, todos los nodos encendidos. |
-| 2 | [Config R1 – Tunnel VTI](evidencias/02_config_r1_tunnel.png) | Consola R1: configuración de `Tunnel0` con `tunnel protection ipsec profile`. |
-| 3 | [Estado del túnel](evidencias/03_show_interface_tunnel.png) | Salida de `show interface tunnel 0` y `show crypto isakmp sa` en estado `up/up` y `QM_IDLE`. |
-| 4 | [Ping exitoso](evidencias/04_ping_exitoso.png) | Ping exitoso de PC1 (`202.50.73.130`) a PC2 (`202.50.73.2`) con túnel activo. |
+| 1 | [Topología general](evidencias/1.png) | Topología en PNetLab con nombre y matrícula visibles, todos los nodos encendidos. |
+| 2 | [Config R1 – Tunnel VTI](evidencias/2.png) | Consola R1: configuración de `Tunnel0` con `tunnel protection ipsec profile`. |
+| 3 | [Estado del túnel](evidencias/3.png) | Salida de `show interface tunnel 0` y `show crypto isakmp sa` en estado `up/up` y `QM_IDLE`. |
+| 4 | [Ping exitoso](evidencias/4.png) | Ping exitoso de PC1 (`202.50.73.130`) a PC2 (`202.50.73.2`) con túnel activo. |
 
 ---
 
