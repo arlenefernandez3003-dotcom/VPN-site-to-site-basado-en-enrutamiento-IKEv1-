@@ -376,17 +376,6 @@ Success rate is 100 percent (10/10)
 
 ---
 
-### Troubleshooting Rápido
-
-| Síntoma | Causa probable | Solución |
-|---|---|---|
-| `Tunnel0` en estado `down/down` | Tunnel source/destination mal configurados | Verificar que `tunnel destination` coincida con la IP WAN real del peer |
-| `MM_NO_STATE` en Fase 1 | Parámetros ISAKMP no coinciden | Confirmar política idéntica en ambos routers |
-| Túnel up pero sin tráfico cifrado | Falta el IPSec Profile en la interfaz | Verificar `tunnel protection ipsec profile` aplicado |
-| Pings fallan a la LAN remota | Falta ruta estática hacia la LAN vía Tunnel0 | Revisar `ip route <red_remota> <mascara> Tunnel0` |
-
----
-
 ## 7. Capturas de Pantalla
 
 | # | Captura | Descripción |
@@ -401,8 +390,6 @@ Success rate is 100 percent (10/10)
 ## 8. Video Demostrativo
 
 🎥 **[Ver en YouTube — enlace pendiente](#)**
-
-**Duración estimada:** < 8 minutos
 
 ---
 
